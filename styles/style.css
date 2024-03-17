@@ -1,20 +1,198 @@
-/* 1. don't modify this style */
-* {
-  padding: 0;
-  margin: 0;
-
-  box-sizing: border-box;
+body{
+  width: 1440px;
+  
+}
+.header{
+  position: fixed;
+  background-color: #3B2A9F;
+  width: 1438.77px;
+  height: 100px;
+  display: flex;
+}
+  #logo{
+  padding-left: 58.95px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-right: 551.53px;
+  font-weight: 800;
+  font-size: 29px;
+  line-height: 44.51px;
+  color: #fff;
 }
 
-/* 2. we use :root for default variables */
-:root {
-  /* --"somekey-attr": "somevalue" i.e : */
-  --black-700: #000;
+.group1{
+  width: 505.41px;
+  height: 22.4px;
+  top: 40px;
+  display: flex;
+  gap: 88px;
+  margin-top: 40px;
+  margin-bottom: 35.8px;
 }
-/* 3. and we use it like this */
-.elementOne {
-  /* var(--"somekey-attr") */
-  background-color: var(--black-700);
+.group1 #a1{
+  width: 50.6px;
+  height: 24.2px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.group1 #a2{
+  width: 70.63px;
+  height: 24.2px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.group1 #a3{
+  width: 74.85px;
+  height: 24.2px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.group1 #a4{
+  width: 45.33px;
+  height: 24.2px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.group3{
+  display: flex;
+  gap: 3px;
+  padding-top: 2px;
+  padding-bottom: 25px;
+ 
+}
+  .group3 #rec1{
+  background-color: #FA8305;
+  width: 30.97px;
+  height: 4px;
+  border-radius: 20px;
+  top: 71px;
+  left: 692.64px;
+}
+.group3 #rec2{
+  width: 5px;
+  height: 4px;
+  border-radius: 20px;
+  background-color: #FA8305;
+}
+.group2{
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 26.66px;
+  margin-right: 59.18px;
+  margin-left: 36.18px;
+}
+.group2 #bar{
+  width: 131.66px;
+  height: 41.34px;
+  top: 32px;
+  left: 1248.16px;
+  border-radius: 6px;
+  border: 1px solid #fa8305;
+  background-color: #FA8305;
+  color: #ffffff;
+}
+.first-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first-section-left{
+  margin-top: 203px;
+  margin-left: 147px;
+  background-color: #3B2A9F;
+}
+#first-section-left-p1{
+  width: 273px;
+  height: 31px;
+  left: 147px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31.04px;
+  color: #FA8305;
+}
+#first-section-left-p2{
+  width: 479.63px;
+  height: 234px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 77.6px;
+  color: #ffffff;
+  margin-top: 17px;
+  margin-bottom: 26px;
+}
+#first-section-left-p3{
+  width: 527px;
+  height: 101px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 26px;
+  margin-bottom: 28px;
+}
+.br2{
+  width: 195px;
+  height: 53px;
+  background-color: #FA8305;
+  border-radius: 30px;
+  margin-bottom: 180px;
+}
+#a5{
+  position: relative;
+  top: 14px;
+  left: 40px;
+  right: 31px;
+  bottom: 14px;
+  width: 134px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.first-section-right{
+   
+}
+ .first-section-right #image1{
+  width: 806px;
+  height: 761px;
+ margin-left: 30px;
+}
+.first-section-right #img1{
+  background-color: black;
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  top: 409px;
+  left: 649px;
+}
+.first-section-right #cry{
+  background-color: black;
+  width: 101px;
+  height: 99px;
+  position: absolute;
+  top: 202px;
+  left: 828px;
+}
+.first-section-right #img-unreal{
+  background-color: black;
+  width: 59px;
+  height: 64px;
+  position: absolute;
+  top: 218px;
+  left: 1168px;
 }
 
-/* good luck */
