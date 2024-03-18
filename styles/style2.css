@@ -164,6 +164,87 @@ body{
     margin-top: 121px;
   }
    .first-section-right #image1{
-    width: 730px;
+    width: 739px;
     height: 650px;
+  }
+  .seconde-section-p{
+    margin-left: 110px;
+    margin-top: 257px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45.12px;
+    color: #bd1515;
+  }
+  .threed-section{
+    display: flex;
+    gap: 43px;
+    margin-top: 63px;
+  }
+  .threed-section1{
+    width: 378px;
+    height: 348px;
+    border-radius: 20px;
+    margin-left: 110px;
+    background-color:#1C140F;
+  }
+  .threed-section1-button{
+    width: 140px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26.25px;
+    color: #FFFFFF;
+    background-color: #B000DC1C;
+    margin-top: 64px;
+    margin-left: 37px;
+    border-radius: 8px;
+    border: 1px solid #B000DC1C;
+  }
+  .threed-section1-p1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 37.5px;
+    color: #ffffff;
+    margin-top: 19px;
+    margin-left: 37px;
+  }
+  .threed-section1-p2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26.25px;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-left: 37px;
+  }
+  .threed-section2{
+    width: 378px;
+    height: 348px;
+    border-radius: 20px;
+    background-color:#1C140F;
+  }
+  .threed-section2-button{
+    width: 140px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26.25px;
+    color: #FFFFFF;
+    background-color:#DC42001C;
+    margin-top: 64px;
+    margin-left: 37px;
+    border-radius: 8px;
+    border: 1px solid #DC42001C;
+  }
+  .threed-section3-button{
+    width: 140px;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26.25px;
+    color: #FFFFFF;
+    background-color:#00DC8D1C;
+    margin-top: 64px;
+    margin-left: 37px;
+    border-radius: 8px;
+    border: 1px solid #00DC8D1C;
   }
