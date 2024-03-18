@@ -78,6 +78,7 @@ body{
   gap: 3px;
   padding-top: 2px;
   padding-bottom: 25px;
+  margin-left: -15px;
  
 }
   .group3 #rec1{
@@ -172,9 +173,6 @@ body{
   line-height: 24px;
   color: #ffffff;
   text-decoration: none;
-}
-.first-section-right{
-   
 }
  .first-section-right #image1{
   width: 806px;
